@@ -5,7 +5,8 @@ Prerequisites
 	Before running this code, make sure you have the Pygame library installed. You can install it using the following command:
 
 Copy code
-  		pip install pygame
+
+pip install pygame
 	
 How It Works
 
