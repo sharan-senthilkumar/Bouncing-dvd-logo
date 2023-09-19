@@ -8,38 +8,39 @@ Copy code
   		pip install pygame
 	
 How It Works
-	The code initializes Pygame, sets up the game window, and loads an image of the DVD logo.
 
-	It sets the initial position of the DVD logo (x and y) to random coordinates within the screen boundaries.
+1. The code initializes Pygame, sets up the game window, and loads an image of the DVD logo.
 
-	The width and height of the game window are set to 800x600 pixels.
+2. It sets the initial position of the DVD logo (x and y) to random coordinates within the screen boundaries.
 
-	x_speed and y_speed variables control the speed and direction of the logo's movement.
+3. The width and height of the game window are set to 800x600 pixels.
 
-	The code enters a game loop (while True) that continuously updates the screen and handles user events until the user closes the window.
+4. x_speed and y_speed variables control the speed and direction of the logo's movement.
 
-	Inside the game loop, it checks for a quit event (e.g., closing the window) and exits the game gracefully if the event occurs.
+5. The code enters a game loop (while True) that continuously updates the screen and handles user events until the user closes the window.
 
-	The screen is cleared with a black background (window.fill((0, 0, 0))) in each iteration to erase the previous frame.
+6. Inside the game loop, it checks for a quit event (e.g., closing the window) and exits the game gracefully if the event occurs.
 
-	The logo's position is updated based on the current speed and direction.
+7. The screen is cleared with a black background (window.fill((0, 0, 0))) in each iteration to erase the previous frame.
 
-	Boundary conditions are checked, and if the logo hits the screen edges, it reverses its direction and changes its color to a random one.
+8. The logo's position is updated based on the current speed and direction.
 
-	The logo image is tinted with the current color, and the tinted image is displayed on the screen.
+9. Boundary conditions are checked, and if the logo hits the screen edges, it reverses its direction and changes its color to a random one.
 
-	The screen is updated to display the changes.
+10. The logo image is tinted with the current color, and the tinted image is displayed on the screen.
 
-	The loop continues until the user quits the program.
+11. The screen is updated to display the changes.
+
+12. The loop continues until the user quits the program.
 
 Usage
 
-	Make sure you have Python and Pygame installed.
+1. Make sure you have Python and Pygame installed.
 
-	Place an image of the DVD logo named "th (1).jpg" in the same directory as this script.
+2. Place an image of the DVD logo named "th (1).jpg" in the same directory as this script.
 	
-	Run the script, and the bouncing DVD logo animation will appear in a window.
+3. Run the script, and the bouncing DVD logo animation will appear in a window.
 
-To exit the animation, simply close the window.
+4. To exit the animation, simply close the window.
 
 Enjoy the nostalgia of the bouncing DVD logo!
