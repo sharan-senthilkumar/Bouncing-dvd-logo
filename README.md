@@ -1,10 +1,10 @@
 Bouncing DVD Logo Animation
 	This Python code creates an animated simulation of a bouncing DVD logo using the Pygame library. The DVD logo appears to bounce around the screen, changing color each time it hits a boundary. Here's a brief overview of the code and its functionality:
 
-	Prerequisites
-		Before running this code, make sure you have the Pygame library installed. You can install it using the following command:
+Prerequisites
+	Before running this code, make sure you have the Pygame library installed. You can install it using the following command:
 
-	Copy code
+Copy code
   		pip install pygame
 	
 How It Works
